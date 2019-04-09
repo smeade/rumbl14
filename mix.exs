@@ -43,7 +43,9 @@ defmodule Rumbl.MixProject do
       {:gettext, "~> 0.11"},
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
-      {:cowlib, "2.7.0", override: true}
+      {:cowlib, "2.7.0", override: true},
+      {:comeonin, "~> 4.1"},
+      {:pbkdf2_elixir, "~> 0.12"}
     ]
   end
 
